@@ -37,13 +37,3 @@ console.log(madlib)
 console.log(madlib2)
 console.log(madlib3)
 
-
-
-
-
-
-
-
-
-
-
