@@ -1,3 +1,8 @@
+// ===== DAY 3: Template Literals & String Methods =====
+
+
+// --- Task 1: formatIntro + slice --- 
+
 const fname = "Doomer"
 const age = 21
 console.log(`My name is ${fname.toUpperCase()} and I am ${age} years old`)
@@ -6,7 +11,6 @@ console.log(fname.slice(-3))
 
 
 // Strings are immutable
-
 let greeting = "hello"
 greeting.toUpperCase()
 console.log(greeting)   // still "hello" — the return value was thrown away
@@ -25,7 +29,7 @@ console.log(intro.toUpperCase())
 console.log(intro.length)
 
 
-
+// --- Task 2: madlibs --- 
 
 function madlibs(adjective, noun, verb, place) {
     return `Them ${adjective} ${noun} ${verb} ${place}`

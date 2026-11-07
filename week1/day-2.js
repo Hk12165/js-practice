@@ -1,5 +1,7 @@
-// These are the comparisons i am testing:
+// ===== DAY 2: Comparisons & Truthy/Falsy =====
 
+
+// --- Task 1: comparisons (my predictions are in the comment block below) ---
 
 console.log("1" == 5)
 console.log(10 < 100)
@@ -37,8 +39,9 @@ false
 
 */
 
-// These are if checks using different falsy values:
 
+
+// --- Task 2: if checks using different falsy values ---
 
 if (false) {
     console.log("false is truthy")
@@ -56,7 +59,6 @@ if (null) {
 else {
     console.log("null is falsy")
 }
-
 
 
 
@@ -80,14 +82,12 @@ else {
 
 
 
-
 if (0) {
     console.log("0 is truthy")
 }
 else {
     console.log("0 is falsy")
 }
-
 
 
 
@@ -127,8 +127,7 @@ else {
 
 
 
-
-
+// --- Task 3: combining comparisons with && and || ---
 
 const age = 24;
 const city = "Delhi";

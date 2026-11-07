@@ -1,3 +1,5 @@
+// ===== DAY 1: Variables & Basic Types =====
+
 const name = "Harsh";
 const age = 19;
 const isStudent = true;
